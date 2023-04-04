@@ -1,7 +1,11 @@
 import React from "react";
 
 import ReactDOM, {createRoot} from "react-dom/client";
-import Example from "./components/Example";
+import Head_Block from "./components/Head/Head_Block"
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+
 
 if (document.getElementById('root')) {
     
@@ -10,7 +14,9 @@ if (document.getElementById('root')) {
     root.render(
         <React.StrictMode>
        
-                    {<Example/>}
+              <header>
+              {<Head_Block />}
+              </header>
                
         </React.StrictMode>
     )
