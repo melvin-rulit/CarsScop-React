@@ -1,0 +1,26 @@
+header {
+    height: 43px;
+    background-color: #4cb1ca;
+}
+
+.head_section {
+    display: flex;
+}
+
+.language_and_currency_block {
+
+    display: flex;
+
+    .language {
+        padding-left: 184px;
+        color: #bef2ff;
+        padding-top: 9px;
+    }
+
+    .currency {
+    padding-left: 21px;
+    color: #bef2ff;
+    padding-top: 9px;
+}
+}
+
